@@ -56,3 +56,7 @@
 4. W3.CSS
 5. Full stack hash
 6. Form validation
+7. Database design
+8. Array
+9. javascript loop
+10. SSL Certificate
