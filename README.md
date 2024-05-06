@@ -5,7 +5,7 @@
 ## Project Plan
 ```mermaid
 gantt
-    section Section
+    section e-Tracking Backend
     ระบบ e-Tracking :done,    des1, 2024-01-01,2024-01-30
     ขอใบรับรอง SSL        :active, des2, after des1, 30d
     Parallel 1   :         des3, after des1, 30d
