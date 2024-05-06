@@ -11,8 +11,8 @@ gantt
     ทบทวน source code  :         des3, after des1, 30d
     ออกแบบ User Interface  :         des4, after des3, 30d
     ออกแบบ Database   :         des5, after des4, 30d
-    ออกแบบ Algorithm   :         des6, after des5, 30d
-    พัฒนา web application และทดสอบระบบ   :         des7, after des6, 90d
+    ออกแบบ Algorithm   :         des6, after des4, 60d
+    พัฒนา web application และทดสอบระบบ   :         des7, after des4, 120d
     จัดทำคู่มือการใช้งาน   :         des8, after des7, 30d
     ซักซ้อมแนวทางปฏิบัติ   :         des9, after des8, 30d
 
