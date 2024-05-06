@@ -28,7 +28,7 @@ gantt
 ```mermaid
 sequenceDiagram
 เจ้าหน้าที่->>e-Tracking Backend: เปิดโปรแกรม?
-loop ตรวจสอบพิสูจน์ตัวตน
+loop พิสูจน์ตัวตน
     e-Tracking Backend->>Database: แก้ไขข้อมูล
 end
 Note right of Database: แก้ไขเป็นปัจจุบัน!
