@@ -29,9 +29,9 @@ gantt
 sequenceDiagram
 เจ้าหน้าที่->>e-Tracking Backend: เปิดโปรแกรม?
 loop ตรวจสอบพิสูจน์ตัวตน
-    e-Tracking Backend->>Database: กรอกข้อมูลความก้าวหน้า
+    e-Tracking Backend->>Database: แก้ไขข้อมูล
 end
-Note right of Database: Rational thoughts!
+Note right of Database: แก้ไขเป็นปัจจุบัน!
 Database-->>e-Tracking: Great!
 Public->>e-Tracking: Any progress?
 e-Tracking-->>Database: Data found!
