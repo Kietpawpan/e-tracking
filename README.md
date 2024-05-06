@@ -5,9 +5,9 @@
 ## Project Plan
 ```mermaid
 gantt
-    section Backend
-    สร้าง Elastic Cloud Server ภายใต้โครงการ GDCC ของกระทรวง DE :done,    des1, 2024-01-01,2024-01-30
-    ขอใบรับรอง SSL        :active, des2, after des1, 90d
+    section e-Tracking Backend
+    สร้าง Elastic Cloud Server ภายใต้โครงการ GDCC ของกระทรวงดิจิทัลเพื่อเศรษฐกิจและสังคมแห่งชาติ :done,    des1, 2024-01-01,2024-01-30
+    ขออนุมัติใบรับรอง SSL จาก CA ในต่างประเทศ        :active, des2, after des1, 90d
     ทบทวน source code  :         des3, after des1, 30d
     ออกแบบ User Interface  :         des4, after des3, 30d
     ออกแบบ Database   :         des5, after des4, 30d
