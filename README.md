@@ -31,7 +31,7 @@ sequenceDiagram
 loop HealthCheck
     e-Tracking Backend->>Database: Fight against hypochondria
 end
-Note right of John: Rational thoughts!
+Note right of Database: Rational thoughts!
 Database-->>e-Tracking: Great!
 Public->>e-Tracking: Any progress?
 e-Tracking-->>Database: Data found!
