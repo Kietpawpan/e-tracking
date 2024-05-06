@@ -33,10 +33,10 @@ loop พิสูจน์ตัวตน
 end
 Note right of Database: ข้อมูลเป็นปัจจุบัน!
 loop พิสูจน์ตัวตน
-Public->>e-Tracking: ติดตามความก้าวหน้า
+ผู้ขอ->>e-Tracking: ติดตามความก้าวหน้า
 end
 e-Tracking-->>Database: Data search!
-Database-->>Public: Report!
+Database-->>ผู้ขอ: Report!
 ```
 4. ออกแบบ
 
