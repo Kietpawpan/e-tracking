@@ -40,8 +40,8 @@ Note right of Database: ข้อมูลเป็นปัจจุบัน!
 loop พิสูจน์ตัวตน
 ผู้ขอ->>e-Tracking: ติดตามความก้าวหน้า
 end
-e-Tracking-->>Database: Data search!
-Database-->>ผู้ขอ: Report!
+e-Tracking-->>Database: สืบค้นข้อมูลสถานะคำขอ
+Database-->>ผู้ขอ: รายงานสถานะคำขอ
 ```
 4. ออกแบบ
 
