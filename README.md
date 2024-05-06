@@ -24,7 +24,19 @@ gantt
 ```
 ## วิธีการดำเนินงาน
 1. ทบทวน source code ของโปรแกรม e-Tracking ที่เชื่อมต่อกับระบบ e-Request
-2. ออกแบบส่วนแสดงผล (User Interface)
+2. ออกแบบกลไกการทำงาน
+   ```mermaid
+sequenceDiagram
+Alice->>John: Hello John, how are you?
+loop HealthCheck
+    John->>John: Fight against hypochondria
+end
+Note right of John: Rational thoughts!
+John-->>Alice: Great!
+John->>Bob: How about you?
+Bob-->>John: Jolly good!
+```
+4. ออกแบบ
 
 ## งบประมาณ
 ค่าจัดซื้อใบรับรองความปลอดภัย Secure Socket Layer (SSL) อายุ 1 ปี วงเงิน 5,000 บาท
