@@ -27,9 +27,9 @@ gantt
 2. ออกแบบกลไกการทำงาน
 ```mermaid
 sequenceDiagram
-เจ้าหน้าที่->>e-Tracking Backend: Hello John, how are you?
-loop HealthCheck
-    e-Tracking Backend->>Database: Fight against hypochondria
+เจ้าหน้าที่->>e-Tracking Backend: เปิดโปรแกรม?
+loop ตรวจสอบพิสูจน์ตัวตน
+    e-Tracking Backend->>Database: กรอกข้อมูลความก้าวหน้า
 end
 Note right of Database: Rational thoughts!
 Database-->>e-Tracking: Great!
