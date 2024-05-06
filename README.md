@@ -7,7 +7,7 @@
 gantt
     section Backend
     ระบบ e-Tracking :done,    des1, 2024-01-01,2024-01-30
-    ขอใบรับรอง SSL        :active, des2, after des1, 30d
+    ขอใบรับรอง SSL        :active, des2, after des1, 90d
     ทบทวน source code  :         des3, after des1, 30d
     ออกแบบ User Interface  :         des4, after des3, 30d
     ออกแบบ Database   :         des5, after des4, 30d
