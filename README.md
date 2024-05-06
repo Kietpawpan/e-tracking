@@ -27,14 +27,14 @@ gantt
 2. ออกแบบกลไกการทำงาน
 ```mermaid
 sequenceDiagram
-Alice->>John: Hello John, how are you?
+เจ้าหน้าที่->>e-Tracking Backend: Hello John, how are you?
 loop HealthCheck
-    John->>John: Fight against hypochondria
+    e-Tracking Backend->>Database: Fight against hypochondria
 end
 Note right of John: Rational thoughts!
-John-->>Alice: Great!
-John->>Bob: How about you?
-Bob-->>John: Jolly good!
+Database-->>e-Tracking: Great!
+Public->>e-Tracking: Any progress?
+e-Tracking-->>Database: Data found!
 ```
 4. ออกแบบ
 
