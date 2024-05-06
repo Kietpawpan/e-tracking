@@ -27,6 +27,7 @@ gantt
 2. ออกแบบกลไกการทำงาน ดังนี้
 ```mermaid
 sequenceDiagram
+เจ้าหน้าที่->>Database: แก้ไขข้อมูลผ่าน Remote Desktop Access
 เจ้าหน้าที่->>e-Tracking Backend: เปิดโปรแกรมด้วยวิธี GET
 loop พิสูจน์ตัวตน
     e-Tracking Backend->>Database: แก้ไขข้อมูล
