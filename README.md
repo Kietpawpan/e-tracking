@@ -28,6 +28,7 @@ gantt
 ```mermaid
 sequenceDiagram
 เจ้าหน้าที่->>Database: แก้ไขข้อมูลด้วยวิธี RDA (เดิม)
+Note right of Database: ข้อมูลเป็นปัจจุบัน!
 loop พิสูจน์ตัวตน
 Database->>เจ้าหน้าที่: logout
 end
