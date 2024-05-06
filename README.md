@@ -24,7 +24,7 @@ gantt
 ```
 ## วิธีการดำเนินงาน
 1. ทบทวน source code ของโปรแกรม e-Tracking ที่เชื่อมต่อกับระบบ e-Request
-2. ออกแบบกลไกการทำงาน
+2. ออกแบบกลไกการทำงาน ดังนี้
 ```mermaid
 sequenceDiagram
 เจ้าหน้าที่->>e-Tracking Backend: เปิดโปรแกรมด้วยวิธี GET
