@@ -32,7 +32,9 @@ loop ตรวจสอบพิสูจน์ตัวตน
     e-Tracking Backend->>Database: แก้ไขข้อมูล
 end
 Note right of Database: แก้ไขเป็นปัจจุบัน!
-Public->>e-Tracking: Any progress?
+loop พิสูจน์ตัวตน
+Public->>e-Tracking: ติดตามความก้าวหน้า
+end
 e-Tracking-->>Database: Data search!
 Database-->>Public: Report!
 ```
