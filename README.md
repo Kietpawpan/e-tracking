@@ -25,7 +25,7 @@ gantt
 ## วิธีการดำเนินงาน
 1. ทบทวน source code ของโปรแกรม e-Tracking ที่เชื่อมต่อกับระบบ e-Request
 2. ออกแบบกลไกการทำงาน
-   ```mermaid
+```mermaid
 sequenceDiagram
 Alice->>John: Hello John, how are you?
 loop HealthCheck
