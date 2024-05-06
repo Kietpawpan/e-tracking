@@ -34,7 +34,7 @@ end
 Note right of Database: ข้อมูลเป็นปัจจุบัน!
 เจ้าหน้าที่->>e-Tracking Backend: เปิดโปรแกรมด้วยวิธี GET (ใหม่)
 loop พิสูจน์ตัวตน
-    e-Tracking Backend->>Database: แก้ไขข้อมูล
+    e-Tracking Backend->>Database: แก้ไขข้อมูลด้วยวิธี POST
 end
 Note right of Database: ข้อมูลเป็นปัจจุบัน!
 loop พิสูจน์ตัวตน
