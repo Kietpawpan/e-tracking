@@ -29,6 +29,7 @@ gantt
 sequenceDiagram
 เจ้าหน้าที่->>Database: แก้ไขข้อมูลด้วยวิธี RDA
 loop พิสูจน์ตัวตน
+Database->>เจ้าหน้าที่: logout
 end
 เจ้าหน้าที่->>e-Tracking Backend: เปิดโปรแกรมด้วยวิธี GET
 loop พิสูจน์ตัวตน
