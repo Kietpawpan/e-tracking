@@ -31,7 +31,7 @@ sequenceDiagram
 loop พิสูจน์ตัวตน
     e-Tracking Backend->>Database: แก้ไขข้อมูล
 end
-Note right of Database: แก้ไขเป็นปัจจุบัน!
+Note right of Database: ข้อมูลเป็นปัจจุบัน!
 loop พิสูจน์ตัวตน
 Public->>e-Tracking: ติดตามความก้าวหน้า
 end
