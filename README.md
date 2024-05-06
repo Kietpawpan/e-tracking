@@ -27,7 +27,7 @@ gantt
 2. ออกแบบกลไกการทำงาน
 ```mermaid
 sequenceDiagram
-เจ้าหน้าที่->>e-Tracking Backend: เปิดโปรแกรม?
+เจ้าหน้าที่->>e-Tracking Backend: เปิดโปรแกรมด้วยวิธี GET
 loop พิสูจน์ตัวตน
     e-Tracking Backend->>Database: แก้ไขข้อมูล
 end
