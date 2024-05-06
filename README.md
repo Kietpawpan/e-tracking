@@ -34,7 +34,7 @@ end
 Note right of Database: แก้ไขเป็นปัจจุบัน!
 Public->>e-Tracking: Any progress?
 e-Tracking-->>Database: Data search!
-Database-->>e-Tracking: Data found!
+Database-->>Public: Report!
 ```
 4. ออกแบบ
 
