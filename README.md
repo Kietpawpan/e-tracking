@@ -115,11 +115,7 @@ Database-->>ผู้ขอ: รายงานสถานะคำขอ
 9. javascript loop
 10. SSL Certificate
 
-# ปัจจัยสำคัญ
-ผู้พัฒนาเป็น programmer ประเภท Full Stack Developer ออกแบบและพัฒนาทั้งระบบ frontend และระบบ backend โดยใช้ความรู้และทักษะ
-1. English
-2. การสร้าง Elastic Cloud Server แบบ Web Sever
-3. การติดตั้งโปรแกรม Apache และ PHP บนเครื่องแม่ข่าย
-4. การติดตั้ง SSL Certificate ที่อนุมัติโดย CA ในต่างประเทศ
-5. การพัฒนา Web App ด้วยภาษา HTML/CSS/javascript/PHP/App Script
-6. สมาธิ จินตนาการ ความคิดสร้างสรรค์ ความเพียร ความรักในงาน 
+# ปัจจัยจำเป็น
+1. ผู้พัฒนาเป็น programmer ประเภท Full Stack Developer ออกแบบและพัฒนาทั้งระบบ frontend และระบบ backend โดยใช้ความรู้และทักษะ
+2. ได้รับสิทธิ์ใช้งานเครื่องแม่ข่ายบนระบบคลาวด์กลางภาครัฐ
+3. ได้รับอนุมัติใบรับรองความปลอดภัย SSL
