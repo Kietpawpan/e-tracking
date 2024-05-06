@@ -29,7 +29,7 @@ gantt
 sequenceDiagram
 เจ้าหน้าที่->>Database: แก้ไขข้อมูลด้วยวิธี RDA (เดิม)
 loop พิสูจน์ตัวตน
-Database->>เจ้าหน้าที่: logout
+Database->>เจ้าหน้าที่: logout จาก server
 end
 Note right of Database: ข้อมูลเป็นปัจจุบัน!
 เจ้าหน้าที่->>e-Tracking Backend: เปิดโปรแกรมด้วยวิธี GET (ใหม่)
