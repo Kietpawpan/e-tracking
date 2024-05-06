@@ -6,7 +6,7 @@
 ```mermaid
 gantt
     section Section
-    ระบบ e-Tracking :done,    des1, 2023-10-01,2024-01-30
+    ระบบ e-Tracking :done,    des1, 2024-01-01,2024-01-30
     ขอใบรับรอง SSL        :active,  des2, 2024-10-01, 3d
     Parallel 1   :         des3, after des1, 1d
     Parallel 2   :         des4, after des1, 1d
