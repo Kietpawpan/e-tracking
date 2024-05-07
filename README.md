@@ -17,7 +17,7 @@ gantt
     ออกแบบโครงสร้างโปรแกรม  :         des4, after des3, 30d
     เขียน Algorithm:   des5, after des4, 30d
     section พัฒนาระบบ
-    เขียนโปรแกรม สร้าง web application  :  des6, after des5, 90d
+    เขียนโปรแกรม สร้าง web application  :  des6, after des5, 60d
     ทดสอบระบบ:des7, after des6, 30d
    section ใช้งาน
     จัดทำคู่มือการใช้งาน   :         des8, after des7, 30d
