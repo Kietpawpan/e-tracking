@@ -52,8 +52,8 @@ Database-->>ผู้ขอ: รายงานสถานะคำขอ
 
 ```mermaid
 graph TD;
-    Officer-->e-Tracking Backend;
-    e-Tracking Backend-->Database;
+    Officer-->Backend;
+    Backend-->Database;
     Database-->e-Tracking;
     User-->e-Tracking;
     e-Tracking-->Database;
