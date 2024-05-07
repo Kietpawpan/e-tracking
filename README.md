@@ -15,10 +15,10 @@ gantt
        ทบทวน source code : active, des3, after des1, 150d
        อนุมัติ: a, after des3, 30d
     section ออกแบบ
-       ออกแบบ  :  des4, after a, 60d
+       ออกแบบโครงสร้าง  :  des4, after a, 60d
        เขียน Algorithm:   des5, after des4, 60d
     section พัฒนาระบบ
-       เขียนโปรแกรม web application  :  des6, after des5, 120d
+       เขียนโปรแกรม web application  :  des6, after des5, 90d
        ทดสอบระบบ:    des7, after des6, 30d
    section ใช้งาน
        จัดทำคู่มือ  :   des8, after des7, 30d
