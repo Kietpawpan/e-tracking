@@ -12,17 +12,17 @@ gantt
     section เตรียมการ
     สร้าง Elastic Cloud Server ภายใต้โครงการ GDCC ของกระทรวงดิจิทัลเพื่อเศรษฐกิจและสังคมแห่งชาติ :done,    des1, 2024-05-01,2024-05-30
     ขออนุมัติใบรับรอง SSL จาก CA ในต่างประเทศ        :active, des2, after des1, 180d
-    ทบทวน source code  :   active, des3, 2024-10-01, 60d
+    ทบทวน source code  :   active, des3, 2024-10-01, 30d
     section ออกแบบ
-    ออกแบบโครงสร้างโปรแกรม  :         des4, after des3, 60d
-    เขียน Algorithm:   des5, after des4, 60d
+    ออกแบบโครงสร้างโปรแกรม  :         des4, after des3, 30d
+    เขียน Algorithm:   des5, after des4, 30d
     section พัฒนาระบบ
     เขียนโปรแกรม สร้าง web application  :  des6, after des5, 90d
     ทดสอบระบบ:des7, after des6, 30d
    section ใช้งาน
     จัดทำคู่มือการใช้งาน   :         des8, after des7, 30d
     ซักซ้อมแนวทางปฏิบัติ   :         des9, after des8, 30d
-      เปิดใช้งาน: des10, after des9, 120d
+      เปิดใช้งาน: des10, after des9, 30d
 
 
 ```
