@@ -15,12 +15,12 @@ gantt
     ทบทวน source code  :   active, des3, after des1, 30d
     section ออกแบบ
     ออกแบบโครงสร้างโปรแกรม  :         des4, after des3, 30d
-    เขียน Algorithm:   des4a, after des4, 30d
+    เขียน Algorithm:   des5, after des4, 30d
     section พัฒนาระบบ
-    เขียนโปรแกรม สร้าง web application  :         des7, afer des4a, 60d
-    ทดสอบระบบ:des7a, after des7, 30d
+    เขียนโปรแกรม สร้าง web application  :  des6, afer des5, 60d
+    ทดสอบระบบ:des7, after des6, 30d
    section ใช้งาน
-    จัดทำคู่มือการใช้งาน   :         des8, after des7a, 30d
+    จัดทำคู่มือการใช้งาน   :         des8, after des7, 30d
     ซักซ้อมแนวทางปฏิบัติ   :         des9, after des8, 30d
 
 
