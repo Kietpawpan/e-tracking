@@ -18,7 +18,7 @@ gantt
     เขียน Algorithm:   des4a, after des4, 30d
     section พัฒนาระบบ
     เขียนโปรแกรม สร้าง web application  :         des7, 2024-07-15, 60d
-    ทดสอบระบบ:des7a, 2024-07-30, 30d
+    ทดสอบระบบ:des7a, 2024-07-30, 2024-09-01
    section ใช้งาน
     จัดทำคู่มือการใช้งาน   :         des8, after des7, 30d
     ซักซ้อมแนวทางปฏิบัติ   :         des9, after des8, 30d
