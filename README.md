@@ -14,8 +14,12 @@ gantt
     ขออนุมัติใบรับรอง SSL จาก CA ในต่างประเทศ        :active, des2, after des1, 90d
     ทบทวน source code  :   active, des3, after des1, 30d
     section ออกแบบ
-    ออกแบบโครงสร้างโปรแกรม  :         des4, after des3, 90d
-    พัฒนา web application และทดสอบระบบ   :         des7, after des3, 120d
+    ออกแบบโครงสร้างโปรแกรม  :         des4, after des3, 60d
+    เขียน Algorithm:   des4a, after des4, 30d
+    section พัฒนาระบบ
+    พัฒนา web application  :         des7, after des3, 120d
+    ทดสอบระบบ:des7a, after des3, 120d
+   section ใช้งาน
     จัดทำคู่มือการใช้งาน   :         des8, after des7, 30d
     ซักซ้อมแนวทางปฏิบัติ   :         des9, after des8, 30d
 
