@@ -13,9 +13,9 @@ gantt
        สร้าง Elastic Cloud Server ภายใต้โครงการ GDCC ของกระทรวงดิจิทัลเพื่อเศรษฐกิจและสังคมแห่งชาติ :done,    des1, 2024-05-01,2024-05-30
        ขออนุมัติใบรับรอง SSL :active, des2, after des1, 150d
        ทบทวน source code : active, des3, after des1, 150d
-       อนุมัติโครงการ: a, after des3, 30d
+       อนุมัติโครงการ: a, after des3, 60d
     section ออกแบบ
-       ออกแบบโครงสร้าง  :  des4, after des3, 60d
+       ออกแบบโครงสร้าง  :  des4, after a, 60d
        เขียน Algorithm:   des5, after des4, 60d
     section พัฒนาระบบ
        เขียนโปรแกรม web application  :  des6, after des5, 120d
