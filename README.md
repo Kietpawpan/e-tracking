@@ -22,6 +22,7 @@ gantt
    section ใช้งาน
     จัดทำคู่มือการใช้งาน   :         des8, after des7, 30d
     ซักซ้อมแนวทางปฏิบัติ   :         des9, after des8, 30d
+      เปิดใช้งาน: des10, after des9, 90d
 
 
 ```
