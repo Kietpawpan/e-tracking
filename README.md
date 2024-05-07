@@ -52,10 +52,11 @@ Database-->>ผู้ขอ: รายงานสถานะคำขอ
 
 ```mermaid
 graph TD;
-    Officer-->UI;
-    UI-->Database;
+    Officer-->e-Tracking Backend;
+    e-Tracking Backend-->Database;
     Database-->e-Tracking;
     User-->e-Tracking;
+    e-Tracking-->Database;
 ```
 
 6. เขียนโปรแกรมคอมพิวเตอร์ในภาษา HTML/CSS/javaScript/PHP/Apps Script เพื่อสร้างระบบ e-Tracking Backend ในรูปแบบ Web Application ทำงานบน Elastic Cloud Server ภายใต้โครงการพัฒนาศูนย์ข้อมูลและระบบคลาวด์กลางภาครัฐ (Government Data and Cloud Center, GDCC)
