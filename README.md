@@ -48,7 +48,7 @@ end
 e-Tracking-->>Database: สืบค้นข้อมูลสถานะคำขอ
 Database-->>ผู้ขอ: รายงานสถานะคำขอ
 ```
-4. ออกแบบรายละเอียดของระบบ e-Tracking Backend โดยแสดง algorithm ของโปรแกรม เป็น flowchart
+4. ออกแบบรายละเอียดของระบบ e-Tracking Backend โดยแสดง algorithm ของโปรแกรม เป็น flowchart อธิบายการทำงานของระบบดังกล่าว
 
 ```mermaid
 graph TD;
