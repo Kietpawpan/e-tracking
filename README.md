@@ -44,6 +44,12 @@ gantt
    - หลักสูตร Leadership and Chnange ของ Potsdam University สหพันธรัฐเยอรมนี โดยรับทุน Talent Network  ของสำนักงาน ก.พ. (ทุนรัฐบาล)
    - หลักสูตร Artificial Intelligence
    - เรียน Coding จาก W3Schools.com (HTML/CSS/JavaScript/PHP)
+>[!NOTE]
+> ผลการทดสอบความรู้ coding จาก W3schools:
+> - HTML 85%
+> - CSS 88%
+> - JavaScript 95%
+> - PHP 80%
    - เรียน Apps Script จาก Brilliantpy.com
    - เรียนมาตรฐานการพัฒนาแอปพลิเคชันภาครัฐ ตามคู่มือของ DGA
    - เทคนิคด้าน coding จากสื่อสังคมออนไลน์
