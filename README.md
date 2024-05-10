@@ -72,11 +72,11 @@ graph TD;
 6. เขียนโปรแกรมคอมพิวเตอร์ในภาษา HTML/CSS/javaScript/PHP/Apps Script เพื่อสร้างระบบ e-Tracking Backend ในรูปแบบ Web Application ทำงานบน Elastic Cloud Server ภายใต้โครงการพัฒนาศูนย์ข้อมูลและระบบคลาวด์กลางภาครัฐ (Government Data and Cloud Center, GDCC) ของกระทรวงดิจิทัลเพื่อเศรษฐกิจและสังคมแห่งชาติ
 ```mermaid
 flowchart TD
-    A[Start] --> B{Is it?}
-    B -->|Yes| C[OK]
-    C --> D[Rethink]
+    A[Start] --> B{Any progress?}
+    B -->|Yes| C[Update]
+    C --> D[Edit]
     D --> B
-    B ---->|No| E[End]
+    B ---->|No| E[Tracking]
 ```
 
 8. ทดสอบระบบ โดยเจ้าหน้าที่ศูนย์บริการร่วม ทส. ที่มีหน้าที่เกี่ยวข้อง และใช้อีเมลของศูนย์บริการร่วม ทส. ในการ login
