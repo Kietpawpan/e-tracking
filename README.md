@@ -45,7 +45,7 @@ gantt
    - หลักสูตร Artificial Intelligence
    - เรียน Coding จาก W3Schools.com (HTML/CSS/JavaScript/PHP)
 >[!NOTE]
-> ผลการทดสอบความรู้ coding จาก W3schools:
+> ผลการทดสอบความรู้ด้าน coding จาก W3schools:
 > - HTML 85%
 > - CSS 88%
 > - JavaScript 95%
