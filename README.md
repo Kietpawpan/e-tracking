@@ -151,7 +151,7 @@ flowchart TD
      > _ERROR 001 Wrong Email Address_
      และมีปุุ่มให้กด เพื่อกลับไปยังหน้าเดิม getOTP.html
    - กรณีกรอกอีเมลถูกต้อง ระบบจะดำเนินการ ดังนี้
-     1) ออกรหัสผ่าน โดยใช้ข้อมูลวันที่วันนี้ เข้ารหัสด้วย hash algorithm แล้วตัดรหัสให้สั้นลง 
+     1) ออกรหัสผ่าน โดยใช้รหัสลับ เข้ารหัสด้วย hash algorithm แล้วตัดรหัสให้สั้นลง 
      2) ส่งรหัสผ่านไปยังอีเมลของหน่วยงานที่ดูแลระบบ e-Tracking ด้วยวิธี POST ผ่าน App Script ที่เขียนด้วย javascript และ deploy ด้วย Email account ของ Developer
 >[!WARNING]
 >รหัสผ่านเป็น One Time Passcode มีอายุการใช้งาน 1 วัน
