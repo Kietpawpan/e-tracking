@@ -171,8 +171,26 @@ flowchart TD
 6. Form validation
 7. Database design
 8. Array
-9. javascript loop
-10. SSL Certificate
+## Index.php
+Algorithm
+```
+<!--Defines that this document is an HTML5 document-->
+<!--Create the root element of the HTML page-->
+<!--Contain meta information about the HTML page -->
+<!--Specify a title for the HTML page--> 
+<!--End the head tag-->
+<!-- Define the document's body, a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.-->
+<!--Create a form with updateResult.php as the action-->
+<!--Create a submit button-->
+<!--End the form-->
+<!--Create a link for getting OTP-->
+<!--Create the Back button-->
+<!--HIDE PIN CODE-->
+<!--End the body-->
+<!--End the HTML page-->
+```
+10. javascript loop
+11. SSL Certificate
 
 # ปัจจัยจำเป็น
 1. ความรู้เกี่ยวกับการพัฒนาระบบ frontend และระบบ backend
