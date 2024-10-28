@@ -171,6 +171,14 @@ flowchart TD
 6. Form validation
 7. Database design
 8. Array
+9. javascript loop
+10. SSL Certificate
+
+# ปัจจัยจำเป็น
+1. ความรู้เกี่ยวกับการพัฒนาระบบ frontend และระบบ backend
+2. ได้รับสิทธิ์ใช้งานเครื่องแม่ข่ายบนระบบคลาวด์กลางภาครัฐ
+3. มีใบรับรองความปลอดภัย SSL
+
 ## Index.php
 Algorithm
 ```
@@ -189,10 +197,3 @@ Algorithm
 <!--End the body-->
 <!--End the HTML page-->
 ```
-10. javascript loop
-11. SSL Certificate
-
-# ปัจจัยจำเป็น
-1. ความรู้เกี่ยวกับการพัฒนาระบบ frontend และระบบ backend
-2. ได้รับสิทธิ์ใช้งานเครื่องแม่ข่ายบนระบบคลาวด์กลางภาครัฐ
-3. มีใบรับรองความปลอดภัย SSL
